@@ -1,0 +1,30 @@
+@import "../../../shared/variables.scss";
+$buttonColor: #fff;
+.submit-button {
+  outline: none;
+  width: calc(100% - 40px);
+  border: none;
+  background: $cinnabar;
+  border-radius: 3px;
+  color: $buttonColor;
+  height: 44px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  &:hover {
+    filter: brightness(110%);
+  }
+  &__arrow {
+    border: solid $buttonColor;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  &__right {
+    transform: rotate(-45deg);
+  }
+}

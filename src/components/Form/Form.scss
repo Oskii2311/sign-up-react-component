@@ -1,0 +1,11 @@
+@import "../../shared//variables.scss";
+.sing-up__container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background: $onyx;
+  align-items: center;
+  height: auto;
+  padding: 20px 0;
+  border-radius: 4px;
+}
